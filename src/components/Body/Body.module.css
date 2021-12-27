@@ -1,0 +1,37 @@
+
+.body img {
+	background-size: contain;
+	width: 100%;
+}
+
+.sub-body img {
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	width: 220px;
+	height: 200px;
+}
+
+.sub-body {
+	display: flex;
+	flex-direction: row;	
+}
+
+.body ul {
+	list-style-type: none;
+}
+
+.item {
+	color: blue;
+}
+
+.img {
+	height: 175px;
+	background: url(https://photographylife.com/wp-content/uploads/2017/01/Best-of-2016-Nasim-Mansurov-20.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%;
+	margin-bottom: 10px;
+
+}

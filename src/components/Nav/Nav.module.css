@@ -1,0 +1,22 @@
+.nav {
+	grid-column: 1;
+	grid-row: 2;
+	background-color: rgb(56, 53, 53);
+	font-size: 20px;
+	letter-spacing: 3px;
+}
+
+.item {
+	list-style-type: none;
+	padding: 20px;
+}
+
+.links {
+	color: white;
+	text-decoration: none;
+}
+
+.links:hover {
+	color: #ccc;
+	cursor: pointer;
+}

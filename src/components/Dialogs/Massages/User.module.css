@@ -1,0 +1,28 @@
+.user {
+	display: grid;
+	grid-template-columns: 50px 1fr;
+	margin: 20px 5px;
+	align-items: center;
+}
+
+
+.avatar {
+	background: url(https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2019/07/Man-Silhouette.jpg);
+	width: 50px;
+	height: 50px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 210%;
+}
+
+.link{
+	font-size: 2em;
+	text-decoration: none;
+	color: #000;
+	margin-left: 1em;
+}
+
+.link:hover {
+	font-size: 2.05em;
+	color: rgba(0, 0, 0, 0.733);
+}
